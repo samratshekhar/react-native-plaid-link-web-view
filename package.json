@@ -1,0 +1,16 @@
+{
+  "name": "react-native-plaid-link-web-view",
+  "version": "1.0.0",
+  "description": "react-native plugin which exposes webViews to handle Plaid Link",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "author": {
+    "name": "Samrat Shekhar",
+    "email": "samratshekhar42@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
