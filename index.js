@@ -1,2 +1,3 @@
-var PlaidLinkWebView = require('./PlaidLinkWebView');
+const PlaidLinkWebView = require('./PlaidLinkWebView');
+
 module.exports = PlaidLinkWebView;

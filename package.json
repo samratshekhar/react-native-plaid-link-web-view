@@ -4,13 +4,41 @@
   "description": "react-native plugin which exposes webViews to handle Plaid Link",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js"
   },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "palid",
+    "palid-link",
+    "plaid-link-web-view"
+  ],
   "author": {
     "name": "Samrat Shekhar",
     "email": "samratshekhar42@gmail.com"
   },
+  "homepage": "https://github.com/samratshekhar/react-native-plaid-link-web-view",
+  "bugs": {
+    "url": "https://github.com/samratshekhar/react-native-plaid-link-web-view/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samratshekhar/react-native-plaid-link-web-view"
+  },
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "~6.9.0",
+    "eslint-plugin-react-native": "^1.1.0-beta"
   }
 }
