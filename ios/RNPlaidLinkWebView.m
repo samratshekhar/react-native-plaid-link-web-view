@@ -17,11 +17,24 @@
 #endif
 
 @implementation RNPlaidLinkWebView
+//
+//-(void)didMoveToSuperview{
+//    [self setBackgroundColor:[UIColor blueColor]];
+//}
 
-RCT_EXPORT_MODULE();
-
-RCT_EXPORT_METHOD(addEvent:(NSString *)name location:(NSString *)location){
-    RCTLogInfo(@"Pretending to create an event %@ at %@", name, location);
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if ((self = [super initWithFrame:frame])) {
+        super.backgroundColor = [UIColor blueColor];
+        RCTLogInfo(@"initWithFrame");
+        
+    }
+    return self;
 }
 
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    RCTLogInfo(@"layoutSubviews");
+}
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CAB23011ECEC80A00572C4F /* RNPlaidLinkWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB23001ECEC80A00572C4F /* RNPlaidLinkWebViewManager.m */; };
 		8CB07D2E1ECDCB2E006C2658 /* RNPlaidLinkWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB07D2C1ECDCB1F006C2658 /* RNPlaidLinkWebView.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		8C333A571ECDB65B00138CB3 /* libRNPlaidLinkWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPlaidLinkWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAB22FF1ECEC80A00572C4F /* RNPlaidLinkWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPlaidLinkWebViewManager.h; sourceTree = SOURCE_ROOT; };
+		8CAB23001ECEC80A00572C4F /* RNPlaidLinkWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPlaidLinkWebViewManager.m; sourceTree = SOURCE_ROOT; };
 		8CB07D2B1ECDCB1F006C2658 /* RNPlaidLinkWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPlaidLinkWebView.h; sourceTree = SOURCE_ROOT; };
 		8CB07D2C1ECDCB1F006C2658 /* RNPlaidLinkWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPlaidLinkWebView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -60,6 +63,8 @@
 			children = (
 				8CB07D2B1ECDCB1F006C2658 /* RNPlaidLinkWebView.h */,
 				8CB07D2C1ECDCB1F006C2658 /* RNPlaidLinkWebView.m */,
+				8CAB22FF1ECEC80A00572C4F /* RNPlaidLinkWebViewManager.h */,
+				8CAB23001ECEC80A00572C4F /* RNPlaidLinkWebViewManager.m */,
 			);
 			path = RNPlaidLinkWebView;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAB23011ECEC80A00572C4F /* RNPlaidLinkWebViewManager.m in Sources */,
 				8CB07D2E1ECDCB2E006C2658 /* RNPlaidLinkWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

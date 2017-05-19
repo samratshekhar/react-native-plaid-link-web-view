@@ -1,7 +1,34 @@
 /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions*/
 
-import { NativeModules } from 'react-native';
+// import { requireNativeComponent } from 'react-native';
+//
+// const PlaidLinkWebView = requireNativeComponent('RNPlaidLinkWebView', null);
+//
+// export default PlaidLinkWebView;
 
-const PlaidLinkWebView = NativeModules.RNPlaidLinkWebView;
+import React, {
+  Component,
+} from 'react';
 
-export default PlaidLinkWebView;
+import {
+  requireNativeComponent,
+  View,
+} from 'react-native';
+
+export default class PlaidLinkWebView extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (<RNPlaidLinkWebView {...this.props} />);
+  }
+}
+
+PlaidLinkWebView.propTypes = {
+  ...View.propTypes,
+
+}
+
+const RNPlaidLinkWebView = requireNativeComponent('RNPlaidLinkWebView', PlaidLinkWebView);
